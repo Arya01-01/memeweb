@@ -1,0 +1,54 @@
+#header{
+    height : 65vh; 
+    opacity:0.8;
+    background-image: url(https://media.istockphoto.com/photos/computer-geometric-digital-connection-structure-business-inteligence-picture-id1170731954);
+     background-image: linear-gradient(to right, rgb(230, 174, 55),rgb(242, 48, 161),white); 
+    background-color: #6c40a9;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed ;
+    text-align: center;
+    
+   
+}
+#nav{
+    background-color: rgb(79, 81, 73);
+    position: static;
+
+}
+#my-name {
+    font-size: 10rem;
+    letter-spacing: 0.1rem;
+    color: rgb(11, 11, 11);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+   
+    
+}
+.horizontal-list{
+    list-style:none;
+    padding-left:0px;
+    
+}
+
+.horizontal-list li{
+display: inline-block;
+margin: 0px 8px 8px 0px;
+
+}
+.horizontal-list li a{
+color:rgba(243, 241, 242, 0.899);
+text-decoration: none;
+
+}
+.nav-menu{
+    transition: color 0.5s, border-bottom 4s;
+}
+.nav-menu li a:hover{
+    color:lightgray;
+    border-bottom: 1px solid black;
+  
+}
+.text-center{
+    text-align: center;
+}
